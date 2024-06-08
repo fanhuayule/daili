@@ -15,10 +15,12 @@ body {
     border: 2px solid white;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white background */
+    width: 90%; /* Adjust for mobile */
+    max-width: 600px; /* Max width for larger screens */
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 2em; /* Slightly smaller for mobile */
     margin-bottom: 20px;
 }
 
@@ -27,11 +29,12 @@ h1 {
     padding: 15px;
     border-radius: 10px;
     margin-bottom: 20px;
+    font-size: 1.2em; /* Adjust font size for readability */
 }
 
 .qr-code img {
-    width: 150px;
-    height: 150px;
+    width: 100px; /* Smaller size for mobile */
+    height: 100px;
     border: 2px solid white;
     border-radius: 10px;
 }
