@@ -32,26 +32,25 @@ h1 {
     font-size: 1.2em; /* Adjust font size for readability */
 }
 
-.button-container {
+.link-container {
     margin-top: 10px;
     display: flex;
     justify-content: center;
     gap: 15px;
 }
 
-button {
+.link-box {
     background-color: rgba(255, 255, 255, 0.2);
     color: white;
     border: 2px solid white;
     padding: 15px 30px; /* Larger padding for mobile */
-    margin: 10px;
     border-radius: 10px;
     font-size: 1.2em; /* Larger font size for mobile */
-    cursor: pointer;
+    text-decoration: none;
     transition: background-color 0.3s, transform 0.3s;
 }
 
-button:hover {
+.link-box:hover {
     background-color: rgba(255, 255, 255, 0.4);
     transform: scale(1.05);
 }
