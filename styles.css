@@ -34,21 +34,26 @@ h1 {
 
 .button-container {
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
 button {
-    background-color: white;
-    color: black;
-    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 2px solid white;
     padding: 15px 30px; /* Larger padding for mobile */
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 1.2em; /* Larger font size for mobile */
     cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 button:hover {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
 }
 
 .qr-code img {
